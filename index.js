@@ -11,7 +11,7 @@ function nestedTarget(div) {
   return className
 }
 
-function nestedTarget() {
+function nestedTarget(id, className) {
   var className = document.getElementById(id).querySelectorAll(className)
   return className
 }
