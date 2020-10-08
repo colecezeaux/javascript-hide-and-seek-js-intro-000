@@ -14,7 +14,7 @@ function nestedTarget() {
 // Define a function deepestChild() that pulls out the most deeply nested child element from div#grand-node.
 // (Remember, you can iterate over elements and call querySelector() and querySelectorAll() on them.)
 function deepestChild() {
-  var deep = document.querySelector('grand-node : last-child')
+  var deep = document.querySelector('#grand-node : last-child')
   return deep
 }
 
