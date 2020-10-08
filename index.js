@@ -11,6 +11,12 @@ function nestedTarget(div) {
   return className
 }
 
+function nestedTarget() {
+  var className = document.getElementById(id).querySelectorAll(className)
+  return className
+}
+
+
 // Define a function increaseRankBy(n) that increases the ranks in all of the .ranked-lists by n. (You might need to make use of parseInt()
 function deepestChild() {
 
