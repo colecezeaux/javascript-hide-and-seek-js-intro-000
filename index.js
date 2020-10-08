@@ -11,11 +11,11 @@ function nestedTarget() {
   return className
 }
 
-
 // Define a function deepestChild() that pulls out the most deeply nested child element from div#grand-node.
 // (Remember, you can iterate over elements and call querySelector() and querySelectorAll() on them.)
 function deepestChild() {
-
+  var deep = document.querySelector('grand-node : last-child')
+  return deep
 }
 
 // Define a function increaseRankBy(n) that increases the ranks in all of the .ranked-lists by n. (You might need to make use of parseInt()
