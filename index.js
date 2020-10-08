@@ -12,7 +12,7 @@ function nestedTarget(div) {
 }
 
 function nestedTarget(id, className) {
-  var className = document.getElementById(id).querySelectorAll(className)
+  var className = document.getElementById(id).querySelector(className)
   return className
 }
 
