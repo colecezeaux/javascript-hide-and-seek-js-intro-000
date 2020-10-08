@@ -7,7 +7,7 @@ function getFirstSelector(selector) {
 // Define a function nestedTarget() that pulls a .target out of #nested (# is used for IDs in selectors).
 // (Note that in index.html #nested and .target just happen to be divs. This method should work with arbitrary elements.)
 function nestedTarget() {
-  var className = document.querySelector('div.nested')
+  var className = document.querySelector(id.className)
   return className
 }
 
